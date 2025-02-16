@@ -46,13 +46,14 @@ body {
 header {
   background-color: var(--primary-color);
   color: white;
+  text-align: center;
   padding: 15px;
 }
 
 .header-content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:center;
 }
 
 .back-btn, .placeholder {
@@ -155,6 +156,7 @@ h1 {
 .app-footer {
   position: fixed;
   bottom: 0;
+  width: 100%;
   left: 0;
   width: 100%;
   background-color: white;
@@ -200,7 +202,7 @@ h1 {
     <header>
 
       <div class="header-content">
-        <button class="back-btn"><i class="material-icons">arrow_back</i></button>
+       
         <h1>Autocarros</h1>
         
       </div>
@@ -230,7 +232,7 @@ h1 {
 
   <footer class="app-footer">
     <div class="footer-menu">
-      <a href="C:\Users\NEMESIS\Downloads\GiraMais\autocarro\autocarro.html" class="footer-item">
+      <a href="dashboard.php" class="footer-item">
         <i class="material-icons">directions_bus</i>
         <span>Autocarros</span>
       </a>

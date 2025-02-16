@@ -90,7 +90,7 @@ if (!isset($_SESSION['email'])) {
 
     <footer class="app-footer">
       <div class="footer-menu">
-        <a href="C:\Users\NEMESIS\Downloads\GiraMais\autocarro\autocarro.html" class="footer-item">
+        <a href="../dashboard.php" class="footer-item">
           <i class="material-icons">directions_bus</i>
           <span>Autocarros</span>
         </a>
